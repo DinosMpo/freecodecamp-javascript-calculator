@@ -1,6 +1,6 @@
 #calculator {
     border: 1px solid black;
-    max-width: 400px;
+    max-width: 280px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -15,13 +15,37 @@
 #display {
     border: 2px solid black;
     box-sizing: border-box;
-    height: 60px;
+    height: 160px;
     width: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#output {
+    border-bottom: 1px dashed black;
+    height: 80%;
+    overflow-wrap: break-word;
+    overflow-x: scroll;
+    text-align: right;
+    position: relative;
+}
+
+.value {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+#input {
+    border: none;
+    height: 20%;
+    outline: none;
+    text-align: right;
 }
 
 #numbers-container {
-    /* border: 1px solid black; */
     box-sizing: border-box;
     width: 100%;
     max-width: 165px;
@@ -43,16 +67,19 @@
     font-family: 'Arial';
     font-weight: bold;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.number:hover {
+    background-color: greenyellow;
 }
 
 #operators-container {
-    /* border: 1px solid black; */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 5px;
-    /* width: 100%; */
 }
 
 .operator {
@@ -67,6 +94,7 @@
     font-size: 20px;
     font-family: 'Arial';
     font-weight: bold;
+    cursor: pointer;
 }
 
 #container {
