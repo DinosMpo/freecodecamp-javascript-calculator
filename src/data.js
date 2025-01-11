@@ -47,7 +47,7 @@ const operators = [
         text: '+'
     },
     {
-        name: 'substract',
+        name: 'subtract',
         text: '-'
     },
     {
