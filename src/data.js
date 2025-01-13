@@ -1,43 +1,43 @@
 const numbers = [
     {
         name: 'seven',
-        text: 7
+        text: '7'
     },
     {
         name: 'eight',
-        text: 8
+        text: '8'
     },
     {
         name: 'nine',
-        text: 9
+        text: '9'
     },
     {
         name: 'four',
-        text: 4
+        text: '4'
     },
     {
         name: 'five',
-        text: 5
+        text: '5'
     },
     {
         name: 'six',
-        text: 6
+        text: '6'
     },
     {
         name: 'one',
-        text: 1
+        text: '1'
     },
     {
         name: 'two',
-        text: 2
+        text: '2'
     },
     {
         name: 'three',
-        text: 3
+        text: '3'
     },
     {
         name: 'zero',
-        text: 0
+        text: '0'
     }
 ];
 
