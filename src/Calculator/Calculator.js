@@ -5,6 +5,7 @@ import { numbers, operators } from '../data';
 export default function Calculator() {
     const [value, setValue] = useState('0');
     const [output, setOutput] = useState('0');
+    const [history, setHistory] = useState([]);
 
     const numbersList = numbers.map((num, key) => <div id={num.name} className="number" key={key} onClick={() => { addNumber(num.text) }}>{num.text}</div>);
 
@@ -169,11 +170,16 @@ export default function Calculator() {
         }
         setOutput(result);
         setValue(result);
+        let newHistory = <div>{output + ' = ' + result}</div>;
+        setHistory([...history, newHistory]);
     }
 
     return (
         <div id="calculator">
             <div id="display-container">
+                <div id="history">
+                    {history}
+                </div>
                 <div id="display">
                     {output}
                 </div>

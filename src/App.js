@@ -7,6 +7,7 @@ function App() {
       <div id="calculator-container">
         <Calculator />
       </div>
+        <div>Created by <a target="_blank" href="https://github.com/DinosMpo">DinosMpo</a></div>
     </div>
   );
 }
