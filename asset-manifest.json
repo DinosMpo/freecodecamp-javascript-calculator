@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/freecodecamp-javascript-calculator/static/css/main.c67b84c0.css",
-    "main.js": "/freecodecamp-javascript-calculator/static/js/main.8178df7c.js",
+    "main.css": "/freecodecamp-javascript-calculator/static/css/main.84667527.css",
+    "main.js": "/freecodecamp-javascript-calculator/static/js/main.cec031d9.js",
     "index.html": "/freecodecamp-javascript-calculator/index.html",
-    "main.c67b84c0.css.map": "/freecodecamp-javascript-calculator/static/css/main.c67b84c0.css.map",
-    "main.8178df7c.js.map": "/freecodecamp-javascript-calculator/static/js/main.8178df7c.js.map"
+    "main.84667527.css.map": "/freecodecamp-javascript-calculator/static/css/main.84667527.css.map",
+    "main.cec031d9.js.map": "/freecodecamp-javascript-calculator/static/js/main.cec031d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c67b84c0.css",
-    "static/js/main.8178df7c.js"
+    "static/css/main.84667527.css",
+    "static/js/main.cec031d9.js"
   ]
 }
